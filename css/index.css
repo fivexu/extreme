@@ -68,17 +68,6 @@ nav > ul > li.ac {
     no-repeat 0 0;
 }
 
-.index .banner h2 {
-  height: 100px;
-  line-height: 100px;
-}
-
-.index .banner p {
-  height: 100px;
-  line-height: 100px;
-  font-size: 36px;
-}
-
 .index .about {
   display: flex;
   padding-top: 40px;
