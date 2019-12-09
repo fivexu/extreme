@@ -124,6 +124,7 @@
   color: #fff;
   text-align: center;
 }
+
 .index footer a {
   width: auto;
   height: auto;
@@ -149,9 +150,18 @@
     display: block;
     text-align: center;
     font: 20px / 30px "微软雅黑";
+    padding-bottom: 10px;
   }
 
   .index .about .content p {
     font: 14px / 18px "微软雅黑";
+  }
+
+  .index .sponsor {
+    padding: 20px 15px 0;
+  }
+
+  .index .organization {
+    padding: 20px 15px 0;
   }
 }
