@@ -29,6 +29,10 @@
   padding-left: 20px;
 }
 
+.index .about .content h3 {
+  display: none;
+}
+
 .index .about .content a {
   width: auto;
   height: auto;
@@ -89,7 +93,6 @@
 }
 
 .index .organization p {
-  height: 36px;
   line-height: 36px;
   color: #333;
 }
@@ -126,4 +129,29 @@
   height: auto;
   color: #fff;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 750px) {
+  .index .about {
+    display: flex;
+    padding-top: 10px;
+  }
+
+  .index .about img {
+    display: none;
+  }
+
+  .index .about .content {
+    padding: 10px;
+  }
+
+  .index .about .content h3 {
+    display: block;
+    text-align: center;
+    font: 20px / 30px "微软雅黑";
+  }
+
+  .index .about .content p {
+    font: 14px / 18px "微软雅黑";
+  }
 }

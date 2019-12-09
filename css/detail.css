@@ -20,3 +20,31 @@
   text-indent: 2em;
   font: 16px / 30px "微软雅黑";
 }
+
+@media screen and (max-width: 750px) {
+  .active .content {
+    padding: 0 15px;
+  }
+  .active .banner h2 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font: 20px / 40px "黑体";
+  }
+
+  .active .banner p {
+    font: 14px / 30px "黑体";
+  }
+
+  .active .content h2 {
+    padding-top: 50px;
+    text-align: center;
+    font: 24px / 40px "黑体";
+    color: #666;
+  }
+
+  .active .content p {
+    padding-bottom: 15px;
+    text-indent: 2em;
+    font: 14px / 20px "微软雅黑";
+  }
+}

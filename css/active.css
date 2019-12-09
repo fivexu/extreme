@@ -42,3 +42,14 @@
   font: 16px / 20px "黑体";
   padding-bottom: 10px;
 }
+
+@media screen and (max-width: 750px) {
+  .active_list > ul {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .active_list > ul > li {
+    margin: 0 auto 20px !important ;
+  }
+}
